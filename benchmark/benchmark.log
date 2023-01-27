@@ -1,0 +1,34 @@
+goos: darwin
+goarch: arm64
+pkg: github.com/Boyalskyy/Json-test-benchmark/benchmark
+Benchmark/UnmarshalEncoding-1000.json-8         	     387	   3028081 ns/op	 1810709 B/op	   36085 allocs/op
+Benchmark/UnmarshalAndMarshalEncoding-1000.json-8         	     169	   7126326 ns/op	 3971922 B/op	   64102 allocs/op
+Benchmark/UnmarshalGoJson-1000.json-8                     	     481	   2502101 ns/op	 2175637 B/op	   37083 allocs/op
+Benchmark/UnmarshalAndMarshalGoJson-1000.json-8           	     262	   4611496 ns/op	 2974374 B/op	   37101 allocs/op
+Benchmark/UnmarshalEncoding-2000.json-8                   	     100	  10135683 ns/op	 5519206 B/op	  108206 allocs/op
+Benchmark/UnmarshalAndMarshalEncoding-2000.json-8         	      54	  21058330 ns/op	11824773 B/op	  192225 allocs/op
+Benchmark/UnmarshalGoJson-2000.json-8                     	     168	   7071780 ns/op	 6546345 B/op	  111216 allocs/op
+Benchmark/UnmarshalAndMarshalGoJson-2000.json-8           	      91	  13113634 ns/op	 9382897 B/op	  111241 allocs/op
+Benchmark/UnmarshalEncoding-4000.json-8                   	      62	  19391021 ns/op	11029702 B/op	  216378 allocs/op
+Benchmark/UnmarshalAndMarshalEncoding-4000.json-8         	      28	  40804341 ns/op	24351982 B/op	  384408 allocs/op
+Benchmark/UnmarshalGoJson-4000.json-8                     	      84	  13372439 ns/op	13142818 B/op	  222417 allocs/op
+Benchmark/UnmarshalAndMarshalGoJson-4000.json-8           	      40	  26042372 ns/op	20340993 B/op	  222446 allocs/op
+PASS
+ok  	github.com/Boyalskyy/Json-test-benchmark/benchmark	17.597s
+goos: darwin
+goarch: arm64
+pkg: github.com/Boyalskyy/Json-test-benchmark/benchmark
+Benchmark/UnmarshalEncoding-1000.json-8         	     373	   3039347 ns/op	 1810698 B/op	   36085 allocs/op
+Benchmark/UnmarshalGoJson-1000.json-8           	     477	   2510810 ns/op	 2175863 B/op	   37084 allocs/op
+Benchmark/UnmarshalAndMarshalEncoding-1000.json-8         	     169	   7108109 ns/op	 3867756 B/op	   64101 allocs/op
+Benchmark/UnmarshalAndMarshalGoJson-1000.json-8           	     261	   4620028 ns/op	 3003349 B/op	   37102 allocs/op
+Benchmark/UnmarshalEncoding-2000.json-8                   	     118	  10077370 ns/op	 5519030 B/op	  108205 allocs/op
+Benchmark/UnmarshalGoJson-2000.json-8                     	     168	   7139854 ns/op	 6551215 B/op	  111220 allocs/op
+Benchmark/UnmarshalAndMarshalEncoding-2000.json-8         	      56	  20963521 ns/op	12069811 B/op	  192226 allocs/op
+Benchmark/UnmarshalAndMarshalGoJson-2000.json-8           	      76	  13223242 ns/op	 9751225 B/op	  111243 allocs/op
+Benchmark/UnmarshalEncoding-4000.json-8                   	      57	  19361474 ns/op	11030018 B/op	  216379 allocs/op
+Benchmark/UnmarshalGoJson-4000.json-8                     	      86	  13428213 ns/op	13116730 B/op	  222416 allocs/op
+Benchmark/UnmarshalAndMarshalEncoding-4000.json-8         	      28	  40721638 ns/op	24350292 B/op	  384402 allocs/op
+Benchmark/UnmarshalAndMarshalGoJson-4000.json-8           	      39	  26080744 ns/op	20548417 B/op	  222448 allocs/op
+PASS
+ok  	github.com/Boyalskyy/Json-test-benchmark/benchmark	17.690s
